@@ -1,0 +1,40 @@
+# ─── Python ───────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+.venv/
+env/
+.env
+*.env
+
+# ─── Node / React / Expo ──────────────────────
+node_modules/
+dist/
+build/
+.expo/
+.expo-shared/
+*.tsbuildinfo
+
+# ─── DB / 벡터 / 업로드 파일 ──────────────────
+chroma_db/
+uploads/
+*.db
+*.sqlite3
+
+# ─── 로그 ─────────────────────────────────────
+*.log
+logs/
+
+# ─── IDE ──────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ─── OS ───────────────────────────────────────
+.DS_Store
+Thumbs.db
